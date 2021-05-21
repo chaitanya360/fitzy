@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "../../components/Button";
 import { colors, sizes } from "../../utility";
-import styles from "../pages.module.css";
 function Section2(props) {
   return (
     <div

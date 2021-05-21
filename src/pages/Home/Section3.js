@@ -1,10 +1,8 @@
 import React from "react";
-import Button from "../../components/Button";
 import VectorImage from "../../components/VectorImage";
-import { colors, sizes } from "../../utility";
-import styles from "../pages.module.css";
+import { sizes } from "../../utility";
 
-let Image_Text = ({ img, text }) => {
+let ImageText = ({ img, text }) => {
   return (
     <div style={{ display: "flex" }}>
       <div
@@ -85,15 +83,15 @@ function Section3(props) {
             marginLeft: "40px",
           }}
         >
-          <Image_Text
+          <ImageText
             img="section3_1.png"
             text="We Are Here To Save Your Time From Preparring Meals"
           />
-          <Image_Text
+          <ImageText
             img="section3_2.png"
             text="We Are Here To Provide You The Healthy Food At The Lowest Cost Possible"
           />
-          <Image_Text
+          <ImageText
             img="section3_3.png"
             text="We Are Here To Show You That Diet Is Way Better Than Medicine"
           />

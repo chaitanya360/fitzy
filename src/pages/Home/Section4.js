@@ -1,7 +1,7 @@
 import React from "react";
-import { colors, sizes } from "../../utility";
+import { sizes } from "../../utility";
 
-let Image_Text = ({ img, text, width = "30vw" }) => {
+let ImageText = ({ img, text, width = "30vw" }) => {
   return (
     <div
       style={{
@@ -84,12 +84,12 @@ function Section4(props) {
           width="100%"
         />
       </div>
-      <Image_Text img="section4_1.png" text="It Starts With Just Subscribing" />
-      <Image_Text
+      <ImageText img="section4_1.png" text="It Starts With Just Subscribing" />
+      <ImageText
         img="section4_2.png"
         text="Then We Deliver Your Package To You Every Day"
       />
-      <Image_Text
+      <ImageText
         img="section4_3.png"
         text="At Your Place, At Your Time"
         width="40%"

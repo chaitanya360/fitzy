@@ -2,9 +2,8 @@ import React from "react";
 import Button from "../../components/Button";
 import VectorImage from "../../components/VectorImage";
 import { colors, sizes } from "../../utility";
-import styles from "../pages.module.css";
 
-let Text_Image = ({ img, text, width = "23%", style }) => {
+let TextImage = ({ img, text, width = "23%", style }) => {
   return (
     <div
       style={{
@@ -108,15 +107,15 @@ function Section5(props) {
           height: "fit-content",
         }}
       >
-        <Text_Image
+        <TextImage
           text="Complete the given tasks"
           img="images/section5_1.png"
         />
-        <Text_Image
+        <TextImage
           text="Earn points by completing tasks"
           img="images/section5_2.png"
         />
-        <Text_Image
+        <TextImage
           text="Redeem you points to get reward coupons"
           img="images/section5_3.png"
         />
@@ -133,6 +132,7 @@ function Section5(props) {
       >
         <div style={{ transform: "translateY(5px)", width: "150px" }}>
           <img
+            alt="giftsSVG"
             src={`${process.env.PUBLIC_URL}/images/section5_gifts.png`}
             height="100%"
             width="100%"

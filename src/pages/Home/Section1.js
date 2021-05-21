@@ -2,7 +2,6 @@ import React from "react";
 import Button from "../../components/Button";
 import Stamp from "../../components/Stamp";
 import { sizes } from "../../utility";
-import styles from "../pages.module.css";
 function Section1(props) {
   return (
     <div style={{ height: "95vh", position: "relative", width: "100%" }}>
