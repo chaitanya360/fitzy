@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fitzy/static/css/main.6b9206aa.chunk.css",
+    "main.js": "/fitzy/static/js/main.081e3966.chunk.js",
+    "main.js.map": "/fitzy/static/js/main.081e3966.chunk.js.map",
+    "runtime-main.js": "/fitzy/static/js/runtime-main.b9558d8d.js",
+    "runtime-main.js.map": "/fitzy/static/js/runtime-main.b9558d8d.js.map",
+    "static/js/2.f1969c0e.chunk.js": "/fitzy/static/js/2.f1969c0e.chunk.js",
+    "static/js/2.f1969c0e.chunk.js.map": "/fitzy/static/js/2.f1969c0e.chunk.js.map",
+    "static/js/3.e330ade0.chunk.js": "/fitzy/static/js/3.e330ade0.chunk.js",
+    "static/js/3.e330ade0.chunk.js.map": "/fitzy/static/js/3.e330ade0.chunk.js.map",
+    "index.html": "/fitzy/index.html",
+    "static/css/main.6b9206aa.chunk.css.map": "/fitzy/static/css/main.6b9206aa.chunk.css.map",
+    "static/js/2.f1969c0e.chunk.js.LICENSE.txt": "/fitzy/static/js/2.f1969c0e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9558d8d.js",
+    "static/js/2.f1969c0e.chunk.js",
+    "static/css/main.6b9206aa.chunk.css",
+    "static/js/main.081e3966.chunk.js"
+  ]
+}
