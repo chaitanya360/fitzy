@@ -39,7 +39,6 @@ function Section1(props) {
             fontWeight: 700,
             textAlign: "center",
             marginTop: "40px",
-            color: colors.green,
           }}
         >
           “Fitness is not just about Workout”
