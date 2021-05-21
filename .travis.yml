@@ -1,19 +1,18 @@
-env:
-  global:
-    secure: "ZPclPHRNSBmz+s3GMb079GC022QUfNMtc8Zh7TJ1rSsH/ubh6rdpOpzugQbpoM+OG/pFxwrxKG70T98nZouZL6r6pixH1O4UnXof2YY9gQdqFI2mi3FD939Z2kFGc8La3Xjv9O5OdrBw3VYuZ3NBxXDxEIq8/VrnEcW61/OTh7uIx6yeSerVGrWz32bCURkNkdD4sICafFG8mVFtEIxzX0RCXmbiuSApUtEzJE6JVnV43LmHgVNsxwM5A9jp7LX40cAYOrofyJiUm9Tw666mlAY60CUjo3DarQW+2NP3WV8+zQtZ+gexllqBMak8vSASg+Zn5MV+lqKV0zLo/1PsKmUd3e31zot3tUFdUNJm84hDLHEE1bJG5XDxHo5TGME7QO+Ru5NQa+Fpfa0yuU75vd+pixX3eCbMW8GSCc7xQiHt4q7AX3RNc2JlnmLTJEUQrxlbUAfIarjvS8TQU3shbAStOr2DyNhwSfFw0NAqPSkhEs7GLF3kMXUWqYUStPXgyANDwQV+k2hLgTC1pvTMYWfoxdLUxoiiVTyaZUpVHJOgWL/3vvXYVvC6wEg/uMBx167ZkAI9jYFiOw76PwOqZLZPWy6tnuhRmLEgo1L2sDD1iZ7Nii0KWSIzJ/4RhEwij9ZsEbD29a5vFDSwzLjXZ+jWCIqqk+UgVf/JdkCgs84="
-
 language: node_js
 node_js:
-  - "stable"
-cache:
-  directories:
-    - node_modules
+  - 12.10.0
+cache: npm
+
+install:
+  - npm install
+
 script:
   - npm run build
+
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $github_token
+  github-token: $GITHUB_TOKEN
   local_dir: build
   on:
-    branch: main
+    branch: master
