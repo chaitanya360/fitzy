@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../../components/Button";
 import Stamp from "../../components/Stamp";
-import { sizes } from "../../utility";
+import { colors, sizes } from "../../utility";
 function Section1(props) {
   return (
     <div style={{ height: "95vh", position: "relative", width: "100%" }}>
@@ -39,6 +39,7 @@ function Section1(props) {
             fontWeight: 700,
             textAlign: "center",
             marginTop: "40px",
+            color: colors.green,
           }}
         >
           “Fitness is not just about Workout”
