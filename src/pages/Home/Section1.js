@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../../components/Button";
 import Stamp from "../../components/Stamp";
-import { colors, sizes } from "../../utility";
+import { sizes } from "../../utility";
 function Section1(props) {
   return (
     <div style={{ height: "95vh", position: "relative", width: "100%" }}>
